@@ -35,6 +35,7 @@ body {
 }
 .social-link img {
   width: 20px;
+  height: 20px;
 }
 #about {
   display: flex;
@@ -42,6 +43,11 @@ body {
   padding-inline: 100px;
   padding-block: 100px;
   position: relative;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
 }
 
 .picture.left::before {
@@ -58,6 +64,8 @@ body {
   flex: 1;
   margin: 0 20px;
   z-index: 0;
+  width: 734px;
+  height: 732px ;
 }
 .picture img {
   width: 100%;
@@ -89,7 +97,7 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: black;
   background-color: #beb45a;
   border-radius: 0;
 }
